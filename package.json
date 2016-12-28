@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "keywords": [
+    ""
+  ],
+  "author": "Andrew Southwick <asouthwick01@gmail.com>",
+  "license": "ISC"
+}
