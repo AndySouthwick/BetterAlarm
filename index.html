@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <!--Use Bootstrap-->
+       <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
+        <!--Use angular-->
+        <script src="node_modules/angular/angular.min.js"></script>
+
+    </head>
+    <body ng-app="BetterAlarm">
+        <div ng-controller="weatherCtrl">
+        {{weather.query.results.channel.location.city}}
+        {{weather.query.results.channel.location.country}}
+        {{weather.query.results.channel.location.region}}
+        <br/>
+        {{weather.query.results.channel.item.condition.text}}
+        </div>
+         <script src="scripts/app.js"></script>
+          <script src="scripts/controllers/WeatherController.js"></script>
+    </body>
+</html>
