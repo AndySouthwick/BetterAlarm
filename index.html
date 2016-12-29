@@ -9,8 +9,8 @@
     </head>
     <body ng-app="BetterAlarm">
         <div ng-controller="weatherCtrl">
-           <button ng-click="westJordan()">west Jordan</button>
-           <button ng-click="chicago()">Chicago</button>
+           <button ng-click="localWeather('lat=40.618691&lng=-112.004918')">west Jordan</button>
+           <button ng-click="localWeather('lat=41.8336479&lng=-87.8722357')">Chicago</button>
 
         {{weather.query.results.channel.location.city}}
         {{weather.query.results.channel.location.country}}
